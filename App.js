@@ -2,8 +2,8 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import { StackNavigator } from "react-navigation";
-import Welcome from "./webpage/welcome/containner/Welcome";
-import Login from "./webpage/login/containner/Login";
+import Welcome from "./webpage/welcome/container/Welcome";
+import Login from "./webpage/login/container/Login";
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',

@@ -1,8 +1,8 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
 import { StackNavigator } from 'react-navigation';
-import axios from "axios";
-// import axios from "./../../../lib/axios";
+// import axios from "axios";
+import axios from "./../../../lib/axios";
 import {
   Container,
   Header,
@@ -29,7 +29,7 @@ export default class Signin extends React.Component {
   
   Login = () => {
      console.log('email :'+this.state.email,'password :'+this.state.password);
-     axios.post(`http://192.168.1.38:3003/account/signin`, { 
+     axios.post(`/account/signin`, { 
           email: this.state.email,
           password:  this.state.password
         })

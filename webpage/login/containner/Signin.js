@@ -23,8 +23,8 @@ import {
 
 export default class Signin extends React.Component {
   state = {
-    email : '',
-    password : '',
+    email: '',
+    password: '',
   }
   
   Login = () => {
@@ -42,8 +42,8 @@ export default class Signin extends React.Component {
         });
   }
 
-  setField = (field,value) => {
-     this.setState({ [field]: value });
+  setField = (field, value) => {
+    this.setState({ [field]: value });
   }
   
   render(){
@@ -67,9 +67,7 @@ export default class Signin extends React.Component {
               <Right />
             </Header>
             <Content>
-              <Text style={styles.logo}>
-                Logo
-              </Text>
+              <Text style={styles.logo}>Logo</Text>
               <Form style={styles.Form}>
                 <Item floatingLabel>
                   <Label>Email</Label>
@@ -77,7 +75,7 @@ export default class Signin extends React.Component {
                 </Item>
                 <Item floatingLabel last>
                   <Label>Password</Label>
-                  <Input value={this.state.password} onChangeText={text => this.setField("password", text)} />
+                  <Input secureTextEntry={true} value={this.state.password} onChangeText={text => this.setField("password", text)} />
                 </Item>
                 <Text style={styles.Text}>FORGOT PASSWORD ?</Text>
                 <Button onPress={this.Login} block dark style={styles.buttonSignin}>
@@ -94,24 +92,24 @@ export default class Signin extends React.Component {
 
 
 
- 
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //     // isReady: false,
-  //     email : '',
-  //     password : '',
-  //   };
-  // }
 
-  // async componentWillMount() {
-    // await Expo.Font.loadAsync({
-    //   Roboto: require("native-base/Fonts/Roboto.ttf"),
-    //   Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf"),
-    //   Ionicons: require("@expo/vector-icons/fonts/Ionicons.ttf")
-    // });
-    // this.setState({ isReady: true });
-  // }
+// constructor() {
+//   super();
+//   this.state = {
+//     // isReady: false,
+//     email : '',
+//     password : '',
+//   };
+// }
+
+// async componentWillMount() {
+// await Expo.Font.loadAsync({
+//   Roboto: require("native-base/Fonts/Roboto.ttf"),
+//   Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf"),
+//   Ionicons: require("@expo/vector-icons/fonts/Ionicons.ttf")
+// });
+// this.setState({ isReady: true });
+// }
 //   render() {
 //     // if (!this.state.isReady) {
 //     //   return <Expo.AppLoading />;
@@ -157,6 +155,12 @@ export default class Signin extends React.Component {
 //   }
 // }
 const styles = StyleSheet.create({
+  parent: {
+    flex: 1
+  },
+  content: {
+    flex: 1
+  },
   Text: {
     color: "grey",
     textAlign: "center",
@@ -179,7 +183,7 @@ const styles = StyleSheet.create({
   buttonHeader: {
     color: "white",
     backgroundColor: "black",
-    borderRadius : 10
+    borderRadius: 10
   },
   icon: {
     color: "black"
@@ -190,8 +194,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginLeft: "10%",
     marginRight: "10%",
-    marginTop: 20 , 
-    borderRadius : 10
+    marginTop: 20,
+    borderRadius: 10
   },
   textSignin: {
     fontSize: 24,

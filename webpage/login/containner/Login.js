@@ -11,7 +11,16 @@ export default class Login extends React.Component {
   }
   
    Login = () => {
-      console.log('email :'+this.state.email,'password :'+this.state.password);
+      // console.log("email :" + this.state.email, "password :" + this.state.password);
+      console.log(axios);
+      axios.post(`/account/signin`, { 
+          email: this.state.email,
+          password:  this.state.password
+        })
+        .then(res => {
+          console.log(res);
+          console.log(res.data);
+        });
 
   }
 
@@ -20,26 +29,51 @@ export default class Login extends React.Component {
   }
   
   render() {
-    return <Container>
+    return (
+     
+       <Form>
+            <Item floatingLabel>
+              <Label>Email</Label>
+              <Input value={this.state.email} onChangeText={text => this.setField("email", text)} />
+            </Item>
+            <Item floatingLabel last>
+              <Label>Password</Label>
+              <Input value={this.state.password} onChangeText={text => this.setField("password", text)} />
+            </Item>
+            <Button block dark onPress={this.Login}>
+              <Text>Login</Text>
+            </Button>
+          </Form>
+    )
+    }
+  }
+    /* <Container style={style.container}>
         <Content>
           <Form>
             <Item floatingLabel>
               <Label>Email</Label>
-              <Input 
-                value={this.state.email} 
-                onChangeText={text => this.setField('email',text)}/>
+              <Input value={this.state.email} onChangeText={text => this.setField("email", text)} />
             </Item>
             <Item floatingLabel last>
               <Label>Password</Label>
-              <Input 
-                value={this.state.password} 
-                onChangeText={text => this.setField('password',text)}/>
+              <Input value={this.state.password} onChangeText={text => this.setField("password", text)} />
             </Item>
             <Button block dark onPress={this.Login}>
               <Text>Login</Text>
             </Button>
           </Form>
         </Content>
-      </Container>;
+      </Container>; */
+
+
+const style = StyleSheet.create({
+  container : {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  welcome : {
+    fontSize : 90
   }
-}
+});

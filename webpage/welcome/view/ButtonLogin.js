@@ -7,7 +7,7 @@ export default class ButtonLogin extends React.Component {
   render() {
     return (
       <Content>
-        <Button block style={styles.buttonEmail}>
+        <Button block style={styles.buttonEmail} onPress={()=> this.props.navigation.navigate("Signin")}>
           <Icon name="mail-forward" />
           <Text style={styles.Textbutton}>E-mail</Text>
         </Button>

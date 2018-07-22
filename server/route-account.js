@@ -3,31 +3,14 @@ var router = express.Router();
 
 var knex = require("./knex");
 
-router.get("/listAccount", async (req, res) => {
-  var data = await knex.table("UserProfile").select();
-  console.log();
+var STATIC_VARIABLE = require("./staticVariable"); // FAIL,SUCCESS
+
+//signup
+router.get("/countryList", async (req, res) => {
+  var data = await knex.table("Country").select();
   res.send(data);
 });
 
-const FAIL = false;
-const SUCCESS = true; 
-
-// signin
-router.post("/signin", async (req, res) => {
-  var data = await knex.table("UserProfile")
-                .select()
-                .where({
-                    email: req.body.email,
-                    password:  req.body.password
-                });
-  if(data.length >0){
-     res.send({ status: SUCCESS, message: data });
-  }else{
-     res.send({ status: FAIL, message: 'User not found, please try again' });
-  }
-});
-
-//signup
 router.post("/validateEmail", async (req, res) => {
   var data = await knex
             .table("UserProfile")
@@ -37,42 +20,44 @@ router.post("/validateEmail", async (req, res) => {
             });
   if (data.length > 0) {
       //duplicate
-    res.send({ status: FAIL, message: "The email address you have entered is already registered." });
+    res.send({ status: STATIC_VARIABLE.FAIL, message: "The email address you have entered is already registered." });
   } else {
       //success
-    res.send({ status: SUCCESS, message: "" });
+    res.send({ status: STATIC_VARIABLE.SUCCESS, message: "" });
   }
 });
 
 router.post("/signup", async (req, res) => {
+  console.log(req.body)
   var data = await knex.table("UserProfile")
             .returning('fullname')
             .insert({
-               email : res.body.email,
-               password: res.body.password,
-               personalId: res.body.personalId,
-               laserCode: res.body.laserCode,
-               fullname: res.body.fullname,
-               nickname: res.body.nickname,
-               gender : res.body.gender,
-               phonenumber: res.body.phonenumber,
-               address: res.body.address,
-               city : res.body.city,
-               state: res.body.state,
-               zipcode: res.body.zipcode,
-               lineId : res.body.lineId,
-               facebook : res.body.facebook,
-               twitter: res.body.twitter,
-               instagram: res.body.instagram,
-               photoOfPassportCard: res.body.photoOfPassportCard,
-               pictureProfile : res.body.pictureProfile,
-               countryId: res.body.countryId,
-               role: res.body.role
+               email : req.body.email,
+               password: req.body.password,
+               personalId: req.body.personalId,
+               laserCode: req.body.laserCode,
+               fullname: req.body.fullname,
+               nickname: req.body.nickname,
+               gender : req.body.gender,
+               phonenumber: req.body.phonenumber,
+               address: req.body.address,
+               city : req.body.city,
+               state: req.body.state,
+               zipcode: req.body.zipcode,
+               lineId : req.body.lineId,
+               facebook : req.body.facebook,
+               twitter: req.body.twitter,
+               instagram: req.body.instagram,
+               photoOfPassportCard: req.body.photoOfPassportCard,
+               pictureProfile : req.body.pictureProfile,
+               countryId: req.body.countryId,
+               role: req.body.role
             })
             .catch(function(err) {
-                res.send({ status: FAIL, message: err });
+                res.send({ status: STATIC_VARIABLE.FAIL, message: err });
             }).then(function(data) {
-                res.send({ status: SUCCESS, message: data });
+                console.log('SUCCESS')
+                res.send({ status: STATIC_VARIABLE.SUCCESS, message: data });
             })
 });
 

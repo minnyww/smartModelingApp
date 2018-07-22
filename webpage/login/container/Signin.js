@@ -21,15 +21,20 @@ import {
   Segment
 } from "native-base";
 
+import PasswordField from "./../../register/view/field-password";
+import EmailField from "./../../register/view/field-email";
+
 export default class Signin extends React.Component {
   state = {
     email: '',
     password: '',
+    invalidEmail:true,
+    invalidPassword:true
   }
   
-  Login = () => {
+  Login = async () => {
      console.log('email :'+this.state.email,'password :'+this.state.password);
-     axios.post(`/account/signin`, { 
+     await axios.post(`/auth/signin`, { 
           email: this.state.email,
           password:  this.state.password
         })
@@ -67,18 +72,20 @@ export default class Signin extends React.Component {
               <Right />
             </Header>
             <Content>
-              <Text style={styles.logo}>Logo</Text>
+              <Text style={styles.logo}>logo</Text>
               <Form style={styles.Form}>
-                <Item floatingLabel>
+                <EmailField value={this.state.email} field="email" label="Email" setField={this.setField} invalidField="invalidEmail" />
+                <PasswordField value={this.state.password} field="password" label="Password" setField={this.setField} invalidField="invalidPassword" />
+                {/* <Item floatingLabel>
                   <Label>Email</Label>
                   <Input value={this.state.email} onChangeText={text => this.setField("email", text)} />
                 </Item>
                 <Item floatingLabel last>
                   <Label>Password</Label>
                   <Input secureTextEntry={true} value={this.state.password} onChangeText={text => this.setField("password", text)} />
-                </Item>
+                </Item> */}
                 <Text style={styles.Text}>FORGOT PASSWORD ?</Text>
-                <Button onPress={this.Login} block dark style={styles.buttonSignin}>
+                <Button onPress={this.Login} block dark disabled={this.state.invalidEmail || this.state.invalidPassword} style={styles.buttonSignin}>
                   <Text style={styles.textSignin}>Sign In</Text>
                 </Button>
               </Form>

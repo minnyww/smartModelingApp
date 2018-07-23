@@ -55,7 +55,7 @@ export default class Signin extends React.Component {
         return <Container>
             <Header span hasSegment style={styles.Header}>
               <Left>
-                <Button transparent>
+                <Button transparent onPress={()=> this.props.navigation.goBack()}>
                   <Icon style={styles.icon} name="arrow-back" />
                 </Button>
               </Left>
@@ -72,7 +72,7 @@ export default class Signin extends React.Component {
               <Right />
             </Header>
             <Content>
-              <Text style={styles.logo}>logo</Text>
+              <Text style={styles.logo}>Logo</Text>
               <Form style={styles.Form}>
                 <EmailField value={this.state.email} field="email" label="Email" setField={this.setField} invalidField="invalidEmail" />
                 <PasswordField value={this.state.password} field="password" label="Password" setField={this.setField} invalidField="invalidPassword" />
@@ -94,7 +94,61 @@ export default class Signin extends React.Component {
   }
 
 }
-
+const styles = StyleSheet.create({
+  parent: {
+    flex: 1
+  },
+  content: {
+    flex: 1
+  },
+  Text: {
+    color: "grey",
+    textAlign: "center",
+    fontSize: 14,
+    paddingTop: 20
+  },
+  Segment: {
+    backgroundColor: "transparent"
+  },
+  Header: {
+    backgroundColor: "white"
+  },
+  Form: {
+    textAlign: "center",
+    width: "80%",
+    marginLeft: "10%",
+    marginRight: "10%",
+    // marginTop : '20%'
+  },
+  buttonHeader: {
+    color: "white",
+    backgroundColor: "black",
+    borderRadius: 10
+  },
+  icon: {
+    color: "black"
+  },
+  buttonSignin: {
+    width: "80%",
+    textAlign: "center",
+    justifyContent: "center",
+    marginLeft: "10%",
+    marginRight: "10%",
+    marginTop: 20,
+    borderRadius: 10
+  },
+  textSignin: {
+    fontSize: 24,
+    textAlign: "center",
+    justifyContent: "center",
+    padding: 10
+  },
+  logo : {
+    textAlign: "center",
+    fontSize:72,
+    padding:70
+  }
+});
 
 
 
@@ -161,58 +215,3 @@ export default class Signin extends React.Component {
 //       </Container>;
 //   }
 // }
-const styles = StyleSheet.create({
-  parent: {
-    flex: 1
-  },
-  content: {
-    flex: 1
-  },
-  Text: {
-    color: "grey",
-    textAlign: "center",
-    fontSize: 14,
-    paddingTop: 20
-  },
-  Segment: {
-    backgroundColor: "transparent"
-  },
-  Header: {
-    backgroundColor: "white"
-  },
-  Form: {
-    textAlign: "center",
-    width: "80%",
-    marginLeft: "10%",
-    marginRight: "10%",
-    // marginTop : '20%'
-  },
-  buttonHeader: {
-    color: "white",
-    backgroundColor: "black",
-    borderRadius: 10
-  },
-  icon: {
-    color: "black"
-  },
-  buttonSignin: {
-    width: "80%",
-    textAlign: "center",
-    justifyContent: "center",
-    marginLeft: "10%",
-    marginRight: "10%",
-    marginTop: 20,
-    borderRadius: 10
-  },
-  textSignin: {
-    fontSize: 24,
-    textAlign: "center",
-    justifyContent: "center",
-    padding: 10
-  },
-  logo : {
-    textAlign: "center",
-    fontSize:72,
-    padding:90
-  }
-});

@@ -2,8 +2,8 @@ import { Container, Button, Text, Content, Body, View } from "native-base";
 import React from "react";
 import { StyleSheet } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
-
-export default class ButtonLogin extends React.Component {
+import { withNavigation } from 'react-navigation';
+class ButtonLogin extends React.Component {
   render() {
     return (
       <Content>
@@ -12,7 +12,7 @@ export default class ButtonLogin extends React.Component {
           <Text style={styles.Textbutton}>E-mail</Text>
         </Button>
         <Button block style={styles.buttonFacebook}>
-          <Icon name="facebook-official" />
+          <Icon name="facebook" />
           <Text style={styles.Textbutton}>Facebook</Text>
         </Button>
         <Button block style={styles.buttonGoogle}>
@@ -52,3 +52,4 @@ const styles = StyleSheet.create({
     backgroundColor: "#d34836"
   }
 });
+export default withNavigation(ButtonLogin);

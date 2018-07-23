@@ -3,39 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/Users/jidapa_sikaphan/.android/build-cache/e9ebcc03e81df91adc1a691aa53c57560e9dc3f0/output/jars/libs/infer-annotations-4.0.jar"
+        jar="C:\Users\user\.android\build-cache\135ce8fa0f6e91ed95740650b9dfd54c39f836c0\output\jars\libs\infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/jidapa_sikaphan/Smart Modeling/SmartModeling/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_f09041e264cff26f19e31a73817a5fe85fdf03c3.jar" />
+        <dex dex="C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_a0b0edc0272caeff2f7e34d7a627dfd9a4fe6bbf.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jidapa_sikaphan/.android/build-cache/e9ebcc03e81df91adc1a691aa53c57560e9dc3f0/output/jars/classes.jar"
+        jar="C:\Users\user\.android\build-cache\135ce8fa0f6e91ed95740650b9dfd54c39f836c0\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="e7a850c25a7efbd533c496ab482c980fdafac58d">
-        <dex dex="/Users/jidapa_sikaphan/Smart Modeling/SmartModeling/android/app/build/intermediates/pre-dexed/debug/classes_ddec9e8165d241754369ead428bcbd9df4dc8ae4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jidapa_sikaphan/.android/build-cache/1d70fe98ba718d40e6c6ba134c5fd7f088d667fb/output/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_f74a7c119e2f6bed596dc03df1cd72fc0c17fddc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jidapa_sikaphan/.android/build-cache/1d70fe98ba718d40e6c6ba134c5fd7f088d667fb/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="e7a850c25a7efbd533c496ab482c980fdafac58d">
-        <dex dex="/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/build/intermediates/pre-dexed/debug/classes_874173c07771c3042d7e466d2405f96ea4e06603.jar" />
+        <dex dex="C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\build\intermediates\pre-dexed\debug\classes_fbfbc354edb6a511c08515633c593a51e9403416.jar" />
     </item>
 
 </items>

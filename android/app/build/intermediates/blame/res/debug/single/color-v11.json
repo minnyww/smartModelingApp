@@ -1,18 +1,26 @@
 [
     {
-        "merged": "/Users/jidapa_sikaphan/Smart Modeling/SmartModeling/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\SmartModeling\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\jidapa_sikaphan\\.android\\build-cache\\8415e1fea8d59de038b1c0c2088a8055ed72daa7\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Users\\user\\Desktop\\smartModeling-app\\smartModelingApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/jidapa_sikaphan/Smart Modeling/SmartModeling/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\jidapa_sikaphan\\.android\\build-cache\\8415e1fea8d59de038b1c0c2088a8055ed72daa7\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\SmartModeling\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\jidapa_sikaphan\\.android\\build-cache\\8415e1fea8d59de038b1c0c2088a8055ed72daa7\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\jidapa_sikaphan\\.android\\build-cache\\8415e1fea8d59de038b1c0c2088a8055ed72daa7\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\smartModeling-app\\smartModelingApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

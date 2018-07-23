@@ -71,6 +71,6 @@ const styles = StyleSheet.create({
     padding: 10
   },
   contentBody: {
-    marginTop: "90%"
+    marginTop: "80%"
   }
 });

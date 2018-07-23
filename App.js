@@ -5,6 +5,7 @@ import Signin from "./webpage/login/container/Signin";
 import Welcome from "./webpage/welcome/container/Welcome";
 
 export default class App extends React.Component {
+  static navigationOptions = { header: null };
   render() {
     return <AppNavigator />;
   }
@@ -12,20 +13,24 @@ export default class App extends React.Component {
 
 const AppNavigator = StackNavigator(
   {
-    Welcome: { screen: Welcome },
-    Signin: { screen: Signin }
+    Welcome: {
+      screen: Welcome,
+      navigationOptions: {
+        header: null
+      }
+    },
+    Signin: {
+      screen: Signin,
+      navigationOptions: {
+        header: null
+      }
+    }
     // Signup: { screen: Signup },
   },
   {
     initialRouteName: "Welcome"
   }
 );
-
-
-
-
-
-
 
 // import React, {Component} from 'react';
 // import {Platform, StyleSheet, Text, View} from 'react-native';

@@ -1,6 +1,10 @@
 import React from "react";
 import { StackNavigator } from "react-navigation";
 import Signin from "./webpage/login/container/Signin";
+<<<<<<< HEAD
+=======
+import Signup from "./webpage/register/container/Signup";
+>>>>>>> d420ab89249229c8f1621b6453364e115c95f06e
 import Welcome from "./webpage/welcome/container/Welcome";
 import Signup from "./webpage/register/container/Signup";
 import ChooseType from "./webpage/register/container/ChooseType";
@@ -28,11 +32,16 @@ const AppNavigator = StackNavigator(
         header: null
       }
     },
+<<<<<<< HEAD
     Signup: {
+=======
+     Signup: {
+>>>>>>> d420ab89249229c8f1621b6453364e115c95f06e
       screen: Signup,
       navigationOptions: {
         header: null
       }
+<<<<<<< HEAD
     },
     ChooseType: {
       screen: ChooseType,
@@ -57,6 +66,8 @@ const AppNavigator = StackNavigator(
       navigationOptions: {
         header: null
       }
+=======
+>>>>>>> d420ab89249229c8f1621b6453364e115c95f06e
     }
     // Signup: { screen: Signup },
   },

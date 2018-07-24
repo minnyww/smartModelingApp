@@ -56,7 +56,7 @@ export default class Signin extends React.Component {
          
             <Header span hasSegment style={styles.Header}>
               <Left>
-                <Button transparent onPress={()=> this.props.navigation.goBack()}>
+                <Button transparent onPress={() => this.props.navigation.goBack()}>
                   <Icon style={styles.icon} name="arrow-back" />
                 </Button>
               </Left>
@@ -65,7 +65,11 @@ export default class Signin extends React.Component {
                   <Button first style={styles.buttonHeader}>
                     <Text>Sign in</Text>
                   </Button>
+<<<<<<< HEAD
                   <Button last active onPress={()=> this.props.navigation.navigate("ChooseType")}>
+=======
+                  <Button last active onPress={() => this.props.navigation.navigate("Signup")}>
+>>>>>>> d420ab89249229c8f1621b6453364e115c95f06e
                     <Text>Sign Up</Text>
                   </Button>
                 </Segment>
@@ -115,14 +119,14 @@ const styles = StyleSheet.create({
     backgroundColor: "white"
   },
   Form: {
-    textAlign: "center",
+    // textAlign: "center",
     width: "80%",
     marginLeft: "10%",
     marginRight: "10%",
     // marginTop : '20%'
   },
   buttonHeader: {
-    color: "white",
+    // color: "white",
     backgroundColor: "black",
     borderRadius: 10
   },
@@ -131,7 +135,7 @@ const styles = StyleSheet.create({
   },
   buttonSignin: {
     width: "80%",
-    textAlign: "center",
+    // textAlign: "center",
     justifyContent: "center",
     marginLeft: "10%",
     marginRight: "10%",

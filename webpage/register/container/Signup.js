@@ -121,6 +121,7 @@ export default class Signup extends React.Component {
 
   // <Picker.Item label="Java" value="java" />
 
+<<<<<<< HEAD
   render() {
     return (
       <Container>
@@ -168,6 +169,38 @@ export default class Signup extends React.Component {
               password={this.state.password}
               invalidField={this.state.invalidField}
             />
+=======
+  render(){
+        return ( <Container>
+            <Content>
+              <Form>
+                <Grid>
+                  <Row style={{ flexDirection: "row", justifyContent: "center" }}>
+                    <Button dark bordered={this.state.role !== 1} style={{ margin: 10 }} onPress={() => this.setField("role", 1)}>
+                      <Text>Model</Text>
+                    </Button>
+                    <Button dark bordered={this.state.role === 1} style={{ margin: 10 }} onPress={() => this.setField("role", 2)}>
+                      <Text>Modeling</Text>
+                    </Button>
+                  </Row>
+                </Grid>
+                <Button dark style={{ justifyContent: "center", alignSelf: "stretch" }}>
+                  <Text style={{ fontSize: 30 }}>
+                    Select Your photo
+                  </Text>
+                </Button>
+                <Item floatingLabel>
+                  <Label>Fullname</Label>
+                  <Input value={this.state.fullname} onChangeText={text => this.setField("fullname", text)} />
+                </Item>
+                <Item floatingLabel>
+                  <Label>Nickname</Label>
+                  <Input value={this.state.nickname} onChangeText={text => this.setField("nickname", text)} />
+                </Item>
+                <EmailField value={this.state.email} field="email" label="Email" setField={this.setField} invalidField={this.state.invalidField} />
+                <PasswordField value={this.state.password} field="password" label="Password" setField={this.setField} invalidField={this.state.invalidField} />
+                <PasswordField value={this.state.confirmPassword} field="confirmPassword" label="Confirm Password" setField={this.setField} password={this.state.password} invalidField={this.state.invalidField} />
+>>>>>>> d420ab89249229c8f1621b6453364e115c95f06e
 
             {/* <Item floatingLabel>
                   <Label>Email</Label>
@@ -265,6 +298,7 @@ export default class Signup extends React.Component {
               <Text style={{ fontSize: 30 }}>Upload Personal Card</Text>
             </Button>
 
+<<<<<<< HEAD
             <Button
               primary
               style={{
@@ -280,5 +314,13 @@ export default class Signup extends React.Component {
         </Content>
       </Container>
     );
+=======
+                <Button primary style={{ justifyContent: "center", alignSelf: "stretch", marginTop: 20 }} onPress={this.signup}>
+                  <Text style={{ fontSize: 30 }}> NEXT </Text>
+                </Button>
+              </Form>
+            </Content>
+          </Container>);
+>>>>>>> d420ab89249229c8f1621b6453364e115c95f06e
   }
 }

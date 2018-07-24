@@ -20,7 +20,7 @@ import {
   Label,
   Segment
 } from "native-base";
-
+import HeaderBar from "../../register/view/HeaderBar";
 import PasswordField from "./../../register/view/field-password";
 import EmailField from "./../../register/view/field-email";
 
@@ -53,6 +53,7 @@ export default class Signin extends React.Component {
   
   render(){
         return <Container>
+         
             <Header span hasSegment style={styles.Header}>
               <Left>
                 <Button transparent onPress={()=> this.props.navigation.goBack()}>
@@ -64,7 +65,7 @@ export default class Signin extends React.Component {
                   <Button first style={styles.buttonHeader}>
                     <Text>Sign in</Text>
                   </Button>
-                  <Button last active>
+                  <Button last active onPress={()=> this.props.navigation.navigate("ChooseType")}>
                     <Text>Sign Up</Text>
                   </Button>
                 </Segment>
@@ -149,69 +150,3 @@ const styles = StyleSheet.create({
     padding:70
   }
 });
-
-
-
-
-
-// constructor() {
-//   super();
-//   this.state = {
-//     // isReady: false,
-//     email : '',
-//     password : '',
-//   };
-// }
-
-// async componentWillMount() {
-// await Expo.Font.loadAsync({
-//   Roboto: require("native-base/Fonts/Roboto.ttf"),
-//   Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf"),
-//   Ionicons: require("@expo/vector-icons/fonts/Ionicons.ttf")
-// });
-// this.setState({ isReady: true });
-// }
-//   render() {
-//     // if (!this.state.isReady) {
-//     //   return <Expo.AppLoading />;
-//     // }
-//     console.log(this.state)
-//     return <Container>
-//         <Header span hasSegment style={styles.Header}>
-//           <Left>
-//             <Button transparent>
-//               <Icon style={styles.icon} name="arrow-back" />
-//             </Button>
-//           </Left>
-//           <Body>
-//             <Segment style={styles.Header}>
-//               <Button first style={styles.buttonHeader}>
-//                 <Text>Sign in</Text>
-//               </Button>
-//               <Button last active>
-//                 <Text>Sign Up</Text>
-//               </Button>
-//             </Segment>
-//           </Body>
-//           <Right />
-//         </Header>
-//         <Content>
-//           <Text style={{ fontSize: 72, textAlign: "center" }}>Logo</Text>
-//           <Form style={styles.Form}>
-//             <Item floatingLabel first>
-//               <Label>E-mail</Label>
-//               <Input onChangeText={text => this.setField("email", text)} />
-//             </Item>
-//             <Item floatingLabel last>
-//               <Label>Password</Label>
-//               <Input onChangeText={text => this.setField("password", text)} />
-//             </Item>
-//           </Form>
-//           <Text style={styles.Text}>FORGOT PASSWORD ?</Text>
-//           <Button onPress={() => navigation.navigate("Welcome")} block dark style={styles.buttonSignin}>
-//             <Text style={styles.textSignin}>Sign In</Text>
-//           </Button>
-//         </Content>
-//       </Container>;
-//   }
-// }

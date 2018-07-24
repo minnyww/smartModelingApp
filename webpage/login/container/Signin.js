@@ -52,20 +52,19 @@ export default class Signin extends React.Component {
   }
   
   render(){
-        return (
-        <Container>
+        return <Container>
             <Header span hasSegment style={styles.Header}>
               <Left>
-                <Button transparent onPress={()=> this.props.navigation.goBack()}>
+                <Button transparent onPress={() => this.props.navigation.goBack()}>
                   <Icon style={styles.icon} name="arrow-back" />
                 </Button>
               </Left>
               <Body>
                 <Segment style={styles.Header}>
-                  <Button first style={styles.buttonHeader} onPress={()=> this.props.navigation.navigate("Signup")}>
+                  <Button first style={styles.buttonHeader}>
                     <Text>Sign in</Text>
                   </Button>
-                  <Button last active>
+                  <Button last active onPress={() => this.props.navigation.navigate("Signup")}>
                     <Text>Sign Up</Text>
                   </Button>
                 </Segment>
@@ -91,7 +90,7 @@ export default class Signin extends React.Component {
                 </Button>
               </Form>
             </Content>
-          </Container>);
+          </Container>;
   }
 
 }

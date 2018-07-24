@@ -1,7 +1,7 @@
 import React from "react";
 import { StackNavigator } from "react-navigation";
 import Signin from "./webpage/login/container/Signin";
-// import Signup from "./webpage/register/container/Signup";
+import Signup from "./webpage/register/container/Signup";
 import Welcome from "./webpage/welcome/container/Welcome";
 
 export default class App extends React.Component {
@@ -21,6 +21,12 @@ const AppNavigator = StackNavigator(
     },
     Signin: {
       screen: Signin,
+      navigationOptions: {
+        header: null
+      }
+    },
+     Signup: {
+      screen: Signup,
       navigationOptions: {
         header: null
       }

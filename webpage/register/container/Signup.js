@@ -108,7 +108,7 @@ export default class Signup extends React.Component {
   
 
   render(){
-        return <Container>
+        return ( <Container>
             <Content>
               <Form>
                 <Grid>
@@ -207,6 +207,6 @@ export default class Signup extends React.Component {
                 </Button>
               </Form>
             </Content>
-          </Container>;
+          </Container>);
   }
 }

@@ -26,7 +26,7 @@ class ButtonLogin extends React.Component {
 const styles = StyleSheet.create({
   buttonEmail: {
     width: "80%",
-    textAlign: "center",
+    // textAlign: "center",
     justifyContent: "center",
     marginLeft: "10%",
     marginRight: "10%",
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
   buttonFacebook: {
     width: "80%",
-    textAlign: "center",
+    // textAlign: "center",
     justifyContent: "center",
     marginLeft: "10%",
     marginRight: "10%",
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
   buttonGoogle: {
     width: "80%",
-    textAlign: "center",
+    // textAlign: "center",
     justifyContent: "center",
     marginLeft: "10%",
     marginRight: "10%",

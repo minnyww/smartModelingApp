@@ -22,12 +22,12 @@ import {
 import { StyleSheet, ImageBackground } from "react-native";
 import { connectStyle, StyleProvider } from "native-base";
 
-import { StackNavigator } from "react-navigation";
+import { withNavigation } from "react-navigation";
 import PaymentForm from "../view/PaymentForm";
 
 // import Headerbar from "./../view/Headerbar";
 
-export default class SelectJobForm extends React.Component {
+class SelectJobForm extends React.Component {
   render() {
     return (
       <Content style={styles.Content}>
@@ -49,7 +49,7 @@ export default class SelectJobForm extends React.Component {
             </Picker>
           </Item>
         </Form>
-        <Button dark style={styles.buttonSubmit}>
+        <Button dark style={styles.buttonSubmit} onPress={()=> this.props.navigation.navigate("InformationForModel")}>
           <Text> Submit </Text>
         </Button>
       </Content>
@@ -76,3 +76,4 @@ const styles = StyleSheet.create({
     marginTop : 20
   }
 });
+export default withNavigation(SelectJobForm);

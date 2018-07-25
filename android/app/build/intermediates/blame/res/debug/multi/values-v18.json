@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/C:\\Users\\user\\Desktop\\smartModeling-app\\smartModelingApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "outputFile": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\C:\\Users\\user\\Desktop\\smartModeling-app\\smartModelingApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/C:\\Users\\user\\.android\\build-cache\\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\C:\\Users\\user\\.android\\build-cache\\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/C:\\Users\\jidapa_sikaphan\\Smart Modeling\\SmartModeling\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "outputFile": "C:\\Users\\user\\Desktop\\smartModeling-app\\smartModelingApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/C:\\Users\\jidapa_sikaphan\\.android\\build-cache\\8415e1fea8d59de038b1c0c2088a8055ed72daa7\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "C:\\Users\\user\\.android\\build-cache\\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+        "outputFile": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +59,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/res/values-v18/values-v18.xml",
+                    "file": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\C:\\Users\\jidapa_sikaphan\\.android\\build-cache\\8415e1fea8d59de038b1c0c2088a8055ed72daa7\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "outputFile": "/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "outputFile": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\C:\\Users\\jidapa_sikaphan\\Smart Modeling\\SmartModeling\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -83,7 +83,31 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/C:\\Users\\jidapa_sikaphan\\.android\\build-cache\\8415e1fea8d59de038b1c0c2088a8055ed72daa7\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\C:\\Users\\jidapa_sikaphan\\.android\\build-cache\\8415e1fea8d59de038b1c0c2088a8055ed72daa7\\output\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\jidapa_sikaphan\\Smart Modeling\\smartModelingApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\jidapa_sikaphan\\.android\\build-cache\\8415e1fea8d59de038b1c0c2088a8055ed72daa7\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

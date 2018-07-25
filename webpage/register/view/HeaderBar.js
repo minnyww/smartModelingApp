@@ -23,13 +23,13 @@ import { withNavigation } from "react-navigation";
 class HeaderBar extends React.Component {
   render() {
     return (
-      <Header hasSegment style={{ backgroundColor: "white" }}>
+      <Header hasSegment style={{ backgroundColor: "#212121" }}>
         <Left>
           <Button
             transparent
             onPress={() => this.props.navigation.navigate("Signin")}
           >
-            <Icon name="arrow-back" style={{ color: "black" }} />
+            <Icon name="arrow-back" style={{ color: "white" }} />
           </Button>
         </Left>
         <Body />

@@ -1,16 +1,14 @@
 import React from "react";
 import { StackNavigator } from "react-navigation";
 import Signin from "./webpage/login/container/Signin";
-<<<<<<< HEAD
-=======
-import Signup from "./webpage/register/container/Signup";
->>>>>>> d420ab89249229c8f1621b6453364e115c95f06e
 import Welcome from "./webpage/welcome/container/Welcome";
 import Signup from "./webpage/register/container/Signup";
 import ChooseType from "./webpage/register/container/ChooseType";
 import Register from "./webpage/register/container/Register";
 import Payment from "./webpage/register/container/Payment";
-import SelectJob from "./webpage/register/container/SelectJob"
+import SelectJob from "./webpage/register/container/SelectJob";
+import InformationForModel from "./webpage/register/container/InformationForModel"
+import Home from "./webpage/Home/container/Home"
 export default class App extends React.Component {
   static navigationOptions = { header: null };
   render() {
@@ -32,16 +30,11 @@ const AppNavigator = StackNavigator(
         header: null
       }
     },
-<<<<<<< HEAD
     Signup: {
-=======
-     Signup: {
->>>>>>> d420ab89249229c8f1621b6453364e115c95f06e
       screen: Signup,
       navigationOptions: {
         header: null
       }
-<<<<<<< HEAD
     },
     ChooseType: {
       screen: ChooseType,
@@ -66,12 +59,22 @@ const AppNavigator = StackNavigator(
       navigationOptions: {
         header: null
       }
-=======
->>>>>>> d420ab89249229c8f1621b6453364e115c95f06e
+    },
+    InformationForModel : {
+      screen:InformationForModel,
+      navigationOptions: {
+        header: null
+      },
+    },
+    Home : {
+      screen:Home,
+      navigationOptions: {
+        header: null
+      },
     }
     // Signup: { screen: Signup },
   },
   {
-    initialRouteName: "Welcome"
+    initialRouteName: "Home"
   }
 );

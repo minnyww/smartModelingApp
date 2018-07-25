@@ -1,128 +1,128 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
 	package
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:2:5-32
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:2:5-32
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/jidapa_sikaphan/.android/build-cache/4210ba2193ccca332799e2684beb851f9a27e567/output/AndroidManifest.xml:11:5-78
+ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\user\.android\build-cache\fb2cb5a7741a29855d881454388b3283af67f72f\output\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:5:22-75
 application
-ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/jidapa_sikaphan/.android/build-cache/4210ba2193ccca332799e2684beb851f9a27e567/output/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/d36d140ce1f7555b07f93ed22863a4c7a6920857/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/15136ecdb0b915e11a0c5241a680f2b4001ed876/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/5036dacdaeaa004365b1280ff4957c2dcb52668d/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/f5cefcc2c5e8de66170ed59fdfe156bfecc10bb9/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/19b3bb0aa62e1ac60cf39a5fe38eedd9547ad826/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/ec27d2a46f279aa85a1c916339948a4a07fef122/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/4a215253f827b586177c7d6744b19d37d5ef9d2a/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/4ef2a3cf3cd54d4c68fc058ae0b9c3074cfd8289/output/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jidapa_sikaphan/.android/build-cache/b20b8a8abaa69c47852eeec1a4a44fa1e897e9b2/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/jidapa_sikaphan/.android/build-cache/40ab5fa609f43cc6e3033e74332aa1a1705e6780/output/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/jidapa_sikaphan/.android/build-cache/301f54b0ca3babaa1d7902dc183a2b246da1678b/output/AndroidManifest.xml:2:3-17
+ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\user\.android\build-cache\fb2cb5a7741a29855d881454388b3283af67f72f\output\AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.android\build-cache\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.android\build-cache\186605d694f9747840430cce0785e4e39eda07d8\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.android\build-cache\88faa4963207e9c2ffa3d0700072c77d3bee189a\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.android\build-cache\335bd5e148d0c59b3ecbaac647a566feb445adb9\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.android\build-cache\0ae172c0830c86a66f6890942647e950e5313d13\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.android\build-cache\247e391a0d7fcd1117ee620c51230afe038f5c95\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.android\build-cache\b87bf44dee2925733b925dbc9f1ddddf8ec6ab38\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.android\build-cache\36badf58c2051b2e602993831060a46f57b0411e\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.android\build-cache\b861b88747fdafe889bcbfb738dcdce054bf311d\output\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.android\build-cache\81377d54525b117ce0415aa3bd34f9c0e880a3c6\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\user\.android\build-cache\6a0a027c0f81fc6046e11bb400d857265428cd23\output\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\user\.android\build-cache\2038c0ebcf7efb074e50cbec3c3eafcd916d1d06\output\AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:9:7-39
 	android:allowBackup
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:11:7-34
 	android:icon
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:10:7-41
 	android:theme
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:8:7-38
 activity#com.smartmodeling.MainActivity
-ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:14:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/jidapa_sikaphan/.android/build-cache/4210ba2193ccca332799e2684beb851f9a27e567/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/d36d140ce1f7555b07f93ed22863a4c7a6920857/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/15136ecdb0b915e11a0c5241a680f2b4001ed876/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/5036dacdaeaa004365b1280ff4957c2dcb52668d/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/f5cefcc2c5e8de66170ed59fdfe156bfecc10bb9/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/19b3bb0aa62e1ac60cf39a5fe38eedd9547ad826/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/ec27d2a46f279aa85a1c916339948a4a07fef122/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/4a215253f827b586177c7d6744b19d37d5ef9d2a/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/4ef2a3cf3cd54d4c68fc058ae0b9c3074cfd8289/output/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jidapa_sikaphan/.android/build-cache/b20b8a8abaa69c47852eeec1a4a44fa1e897e9b2/output/AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/jidapa_sikaphan/.android/build-cache/94b97c6e867d352df0044275f8db16d22d809689/output/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/jidapa_sikaphan/.android/build-cache/9e21d31bc8f46b6846a4b9dd49f0981b5397796e/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/jidapa_sikaphan/.android/build-cache/a00d126fbff0ca109f92669b4ef9733f93b807e9/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/jidapa_sikaphan/.android/build-cache/59598011c643f97cf4cec00e06018fa29ce4e78c/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/jidapa_sikaphan/.android/build-cache/41bb6fdb3a504904ce06a10884c1d594c6629bee/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/jidapa_sikaphan/.android/build-cache/0aeb14b8fe28fa70a939b88996bc3bd61cb4629e/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/jidapa_sikaphan/.android/build-cache/0c8ffc2d0905916c4e11b2f8574337acdded0379/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/jidapa_sikaphan/.android/build-cache/40ab5fa609f43cc6e3033e74332aa1a1705e6780/output/AndroidManifest.xml:2:3-70
+INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\user\.android\build-cache\fb2cb5a7741a29855d881454388b3283af67f72f\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.android\build-cache\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.android\build-cache\186605d694f9747840430cce0785e4e39eda07d8\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.android\build-cache\88faa4963207e9c2ffa3d0700072c77d3bee189a\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.android\build-cache\335bd5e148d0c59b3ecbaac647a566feb445adb9\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.android\build-cache\0ae172c0830c86a66f6890942647e950e5313d13\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.android\build-cache\247e391a0d7fcd1117ee620c51230afe038f5c95\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.android\build-cache\b87bf44dee2925733b925dbc9f1ddddf8ec6ab38\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.android\build-cache\36badf58c2051b2e602993831060a46f57b0411e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.android\build-cache\b861b88747fdafe889bcbfb738dcdce054bf311d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.android\build-cache\81377d54525b117ce0415aa3bd34f9c0e880a3c6\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\user\.android\build-cache\6fb6e5da60c7ef88fa1613a4fbe6032d3c312c8e\output\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\user\.android\build-cache\deaffa153e7540658928cf6d7ba7a34e2283f74d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\user\.android\build-cache\76a5d716577beef6d509af702e4ade6dea8ab26e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\user\.android\build-cache\6c3a00422bc5239caab3111cfa253ec5d0a7ded3\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\user\.android\build-cache\de140f1bca559ce5431c2cff54cfd34e3e2e613e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\user\.android\build-cache\10b9f3592e6be12a4c9e7860a29308908092ebd8\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\user\.android\build-cache\88e299c97ea4105c30036520b424b9caee28fec1\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\user\.android\build-cache\6a0a027c0f81fc6046e11bb400d857265428cd23\output\AndroidManifest.xml:2:3-70
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.android\build-cache\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/d36d140ce1f7555b07f93ed22863a4c7a6920857/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/15136ecdb0b915e11a0c5241a680f2b4001ed876/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/5036dacdaeaa004365b1280ff4957c2dcb52668d/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/f5cefcc2c5e8de66170ed59fdfe156bfecc10bb9/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/19b3bb0aa62e1ac60cf39a5fe38eedd9547ad826/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/ec27d2a46f279aa85a1c916339948a4a07fef122/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/4a215253f827b586177c7d6744b19d37d5ef9d2a/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/4ef2a3cf3cd54d4c68fc058ae0b9c3074cfd8289/output/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.android\build-cache\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.android\build-cache\186605d694f9747840430cce0785e4e39eda07d8\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.android\build-cache\88faa4963207e9c2ffa3d0700072c77d3bee189a\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.android\build-cache\335bd5e148d0c59b3ecbaac647a566feb445adb9\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.android\build-cache\0ae172c0830c86a66f6890942647e950e5313d13\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.android\build-cache\247e391a0d7fcd1117ee620c51230afe038f5c95\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.android\build-cache\b87bf44dee2925733b925dbc9f1ddddf8ec6ab38\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.android\build-cache\36badf58c2051b2e602993831060a46f57b0411e\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.android\build-cache\b861b88747fdafe889bcbfb738dcdce054bf311d\output\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.android\build-cache\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\output\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/jidapa_sikaphan/.android/build-cache/8415e1fea8d59de038b1c0c2088a8055ed72daa7/output/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.android\build-cache\b3f57c0349c7fa9d48cf91f5071b8405965a62e3\output\AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jidapa_sikaphan/.android/build-cache/b20b8a8abaa69c47852eeec1a4a44fa1e897e9b2/output/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.android\build-cache\81377d54525b117ce0415aa3bd34f9c0e880a3c6\output\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jidapa_sikaphan/.android/build-cache/b20b8a8abaa69c47852eeec1a4a44fa1e897e9b2/output/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.android\build-cache\81377d54525b117ce0415aa3bd34f9c0e880a3c6\output\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jidapa_sikaphan/.android/build-cache/b20b8a8abaa69c47852eeec1a4a44fa1e897e9b2/output/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.android\build-cache\81377d54525b117ce0415aa3bd34f9c0e880a3c6\output\AndroidManifest.xml:26:13-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\user\Desktop\smartModeling-app\smartModelingApp\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

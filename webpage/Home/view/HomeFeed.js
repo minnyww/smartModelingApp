@@ -12,7 +12,6 @@ import {
   Body,
   Icon,
   Text,
-  Image,
   View,
   Card,
   Thumbnail,
@@ -20,75 +19,187 @@ import {
   List,
   ListItem
 } from "native-base";
-import { StyleSheet, ImageBackground, Picker } from "react-native";
+import { Col, Row, Grid } from "react-native-easy-grid";
+import { StyleSheet, ImageBackground, Picker, ScrollView } from "react-native";
 import { connectStyle, StyleProvider } from "native-base";
+import { Image } from "react-native";
 import { StackNavigator } from "react-navigation";
 
 export default class HomeFeed extends React.Component {
   render() {
     return (
-      <Content style={styles.Content}>
-        <Card>
-          <CardItem>
-            <Left>
-              <Thumbnail
-                source={{
-                  uri:
-                    "https://scontent.fbkk7-2.fna.fbcdn.net/v/t1.0-9/270090_1898070493210_6346651_n.jpg?_nc_cat=0&oh=8e9095b10084a7e3ed1dae82109dce55&oe=5BDF9DD5"
-                }}
-              />
-              <Body>
-                <Text>Myy</Text>
-                <Text note>Jidapha Silkaphan</Text>
-              </Body>
-            </Left>
-          </CardItem>
-          {/* ใส่รูปไม่ได้วะ */}
-          {/* <CardItem cardBody>
-            <Image
-              source={{
-                uri:
-                  "https://images.pexels.com/photos/235462/pexels-photo-235462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              }}
-              style={{ height: 200, width: null, flex: 1 }}
-            />
-          </CardItem> */}
-        </Card>
+      <Grid>
+        {/* VIp */}
+        <Row>
+          <Col>
+            <Content>
+              <ScrollView
+                horizontal={true}
+                showsHorizontalScrollIndicator={false}
+              >
+                <Card
+                  style={{
+                    flex: 1,
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
+                  <CardItem cardBody>
+                    <Image
+                      source={require("../style/model.png")}
+                      style={{
+                        height: 200,
+                        width: 350,
+                        flex: 1,
+                        resizeMode: "cover"
+                      }}
+                    />
+                  </CardItem>
+                  <CardItem style={{ backgroundColor: "lightpink" }}>
+                    <Left>
+                      <Text>Myy</Text>
+                    </Left>
+                    <Right>
+                      <Text>Jidapha Silkaphan</Text>
+                    </Right>
+                  </CardItem>
+                </Card>
+                <Card
+                  style={{
+                    flex: 1,
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
+                  <CardItem cardBody>
+                    <Image
+                      source={require("../style/model.png")}
+                      style={{
+                        height: 200,
+                        width: 350,
+                        flex: 1,
+                        resizeMode: "cover"
+                      }}
+                    />
+                  </CardItem>
+                  <CardItem style={{ backgroundColor: "lightpink" }}>
+                    <Left>
+                      <Text>Myy</Text>
+                    </Left>
+                    <Right>
+                      <Text>Jidapha Silkaphan</Text>
+                    </Right>
+                  </CardItem>
+                </Card>
+              </ScrollView>
+            </Content>
+          </Col>
+        </Row>
+        {/* VIp */}
 
-        <List>
-          <ListItem>
-            <Left>
-              <Text>Model Suggest</Text>
-            </Left>
-            <Right>
-              <Text>View More</Text>
-            </Right>
-          </ListItem>
-        </List>
-        <CardItem>
-          <Left>
-            <Thumbnail
-              source={{
-                uri:
-                  "https://scontent.fbkk7-2.fna.fbcdn.net/v/t1.0-9/270090_1898070493210_6346651_n.jpg?_nc_cat=0&oh=8e9095b10084a7e3ed1dae82109dce55&oe=5BDF9DD5"
-              }}
-            />
-            <Body>
-              <Text>Myy</Text>
-              <Text note>Jidapha Silkaphan</Text>
-            </Body>
-          </Left>
-        </CardItem>
-      </Content>
+        {/* Feed */}
+        <Row style={{ height: "5%" }}>
+          <View
+            style={{
+              flexDirection: "row"
+              // justifyContent: "space-between",
+              // alignItems: "center",
+              // paddingHorizontal: 10
+            }}
+          >
+            <Text
+              style={{ marginLeft: "3%", paddingRight: "45%", fontSize: 18 }}
+            >
+              Suggest Model
+            </Text>
+
+            <Text>View more</Text>
+          </View>
+        </Row>
+        <ScrollView
+          horizontal={true}
+          showsHorizontalScrollIndicator={false}
+          style={{ marginLeft: "5%" }}
+        >
+          <Row>
+            <Col>
+              <Content>
+                <Card>
+                  <CardItem cardBody>
+                    <Image
+                      source={require("../style/model.png")}
+                      style={{ height: 200, width: null, flex: 1 }}
+                    />
+                  </CardItem>
+                  <CardItem style={{ backgroundColor: "lightpink" }}>
+                    <Left>
+                      <Text>Myy</Text>
+                    </Left>
+                    <Body>
+                      <Text>Jidapha Silkaphan</Text>
+                    </Body>
+                  </CardItem>
+                </Card>
+              </Content>
+            </Col>
+            <Col>
+              <Content>
+                <Card>
+                  <CardItem cardBody>
+                    <Image
+                      source={require("../style/model.png")}
+                      style={{ height: 200, width: null, flex: 1 }}
+                    />
+                  </CardItem>
+                  <CardItem style={{ backgroundColor: "lightpink" }}>
+                    <Left>
+                      <Text>Maew</Text>
+                    </Left>
+                    <Body>
+                      <Text>Waranya Siriphat</Text>
+                    </Body>
+                  </CardItem>
+                </Card>
+              </Content>
+            </Col>
+            <Col>
+              <Content>
+                <Card>
+                  <CardItem cardBody>
+                    <Image
+                      source={require("../style/model.png")}
+                      style={{ height: 200, width: null, flex: 1 }}
+                    />
+                  </CardItem>
+                  <CardItem style={{ backgroundColor: "lightpink" }}>
+                    <Left>
+                      <Text>Taylor</Text>
+                    </Left>
+                    <Body>
+                      <Text>Swapam</Text>
+                    </Body>
+                  </CardItem>
+                </Card>
+              </Content>
+            </Col>
+          </Row>
+        </ScrollView>
+        {/* Feed */}
+      </Grid>
     );
   }
 }
 const styles = StyleSheet.create({
-  cardList: {
-    width: "30%",
-    marginLeft: "5%"
+  feed: {
+    width: "100%",
+    textAlign: "center",
+    backgroundColor: "lightpink",
+    justifyContent: "center"
   },
-  Content: {
-    flex: 1
+  feed1: {
+    width: "100%",
+    textAlign: "center",
+    backgroundColor: "lightblue",
+    justifyContent: "center"
   }
 });

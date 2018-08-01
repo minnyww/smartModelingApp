@@ -9,6 +9,7 @@ import Payment from "./webpage/register/container/Payment";
 import SelectJob from "./webpage/register/container/SelectJob";
 import InformationForModel from "./webpage/register/container/InformationForModel"
 import Home from "./webpage/Home/container/Home"
+import Description from "./webpage/modelDescription/container/Description"
 export default class App extends React.Component {
   static navigationOptions = { header: null };
   render() {
@@ -68,6 +69,12 @@ const AppNavigator = StackNavigator(
     },
     Home : {
       screen:Home,
+      navigationOptions: {
+        header: null
+      },
+    },
+    Description : {
+      screen:Description,
       navigationOptions: {
         header: null
       },

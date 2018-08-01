@@ -23,9 +23,9 @@ import { Col, Row, Grid } from "react-native-easy-grid";
 import { StyleSheet, ImageBackground, Picker, ScrollView } from "react-native";
 import { connectStyle, StyleProvider } from "native-base";
 import { Image } from "react-native";
-import { StackNavigator } from "react-navigation";
+import { withNavigation } from "react-navigation";
 
-export default class HomeFeed extends React.Component {
+class HomeFeed extends React.Component {
   render() {
     return (
       <Grid>
@@ -45,17 +45,18 @@ export default class HomeFeed extends React.Component {
                   }}
                 >
                   <CardItem cardBody>
-                    <Image
+                    <Image 
                       source={require("../style/model.png")}
                       style={{
                         height: 200,
                         width: 350,
                         flex: 1,
                         resizeMode: "cover"
+                        
                       }}
                     />
                   </CardItem>
-                  <CardItem style={{ backgroundColor: "lightpink" }}>
+                  <CardItem style={{ backgroundColor: "lightpink" }} >
                     <Left>
                       <Text>Myy</Text>
                     </Left>
@@ -113,7 +114,7 @@ export default class HomeFeed extends React.Component {
               Suggest Model
             </Text>
 
-            <Text>View more</Text>
+            <Text >View more</Text>
           </View>
         </Row>
         <ScrollView
@@ -123,9 +124,9 @@ export default class HomeFeed extends React.Component {
         >
           <Row>
             <Col>
-              <Content>
-                <Card>
-                  <CardItem cardBody>
+              <Content >
+                <Card >
+                  <CardItem cardBody >
                     <Image
                       source={require("../style/model.png")}
                       style={{ height: 200, width: null, flex: 1 }}
@@ -203,3 +204,4 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   }
 });
+export default withNavigation(HomeFeed);

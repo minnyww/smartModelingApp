@@ -65,7 +65,7 @@ export default class Signin extends React.Component {
                   <Button first style={styles.buttonHeader}>
                     <Text>Sign in</Text>
                   </Button>
-                  <Button last active onPress={()=> this.props.navigation.navigate("ChooseType")}>
+                  <Button last active onPress={()=> this.props.navigation.navigate("Signup1")}>
                     <Text>Sign Up</Text>
                   </Button>
                 </Segment>

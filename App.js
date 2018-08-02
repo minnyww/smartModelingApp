@@ -82,6 +82,6 @@ const AppNavigator = StackNavigator(
     // Signup: { screen: Signup },
   },
   {
-    initialRouteName: "Home"
+    initialRouteName: "Welcome"
   }
 );

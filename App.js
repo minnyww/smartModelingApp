@@ -9,9 +9,13 @@ import Payment from "./webpage/register/container/Payment";
 import SelectJob from "./webpage/register/container/SelectJob";
 import InformationForModel from "./webpage/register/container/InformationForModel"
 import Home from "./webpage/Home/container/Home"
+<<<<<<< HEAD
 
 import Signup1 from "./webpage/register.1/container/Signup1";
 
+=======
+import Description from "./webpage/modelDescription/container/Description"
+>>>>>>> cdc4e9d544ef70f98d8aed2081614d2d7bedb91a
 export default class App extends React.Component {
   static navigationOptions = { header: null };
   render() {
@@ -75,6 +79,7 @@ const AppNavigator = StackNavigator(
         header: null
       },
     },
+<<<<<<< HEAD
     Signup1 : {
       screen:Signup1,
       navigationOptions: {
@@ -82,6 +87,14 @@ const AppNavigator = StackNavigator(
       },
     },
 
+=======
+    Description : {
+      screen:Description,
+      navigationOptions: {
+        header: null
+      },
+    }
+>>>>>>> cdc4e9d544ef70f98d8aed2081614d2d7bedb91a
     // Signup: { screen: Signup },
   },
   {

@@ -39,11 +39,13 @@ class PaymentForm extends React.Component {
     return (
       <Content>
         <HeaderBar />
-        <Text style={styles.textImage}>Payment Image</Text>
+        <View style ={{ alignItems:'center' }}>
+        <Text style={{ fontSize:42 }}>Payment Image</Text>
         <Text style={styles.textDetail}>Payment Details</Text>
         <Text style={styles.tagline}>
           Please enter your card details or skip
         </Text>
+        </View>
         <Form style={styles.form}>
           <Item floatingLabel>
             <Label>Name</Label>
@@ -88,20 +90,20 @@ class PaymentForm extends React.Component {
 const styles = StyleSheet.create({
   textImage: {
     fontSize: 72,
-    textAlign: "center"
+    // textAlign: "center"
   },
   textDetail: {
     fontSize: 24,
-    textAlign: "center",
+    // textAlign: "center",
     marginTop: "10%"
   },
   tagline: {
     fontSize: 16,
-    textAlign: "center"
+    // textAlign: "center"
   },
   ButtonSkip: {
     justifyContent: "center",
-    textAlign: "center",
+    // textAlign: "center",
     marginLeft: "35%",
     marginRight: "35%",
     marginBottom: 15,
@@ -110,7 +112,7 @@ const styles = StyleSheet.create({
   },
   form: {
     width: "90%",
-    textAlign: "center",
+    // textAlign: "center",
     marginLeft: "3%",
     marginRight: "5%"
   },

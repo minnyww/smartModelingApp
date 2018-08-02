@@ -20,12 +20,13 @@ import {
   Label,
   Radio,
   List,
-  ListItem
+  ListItem,
+  Picker
 } from "native-base";
-import { StyleSheet, Picker } from "react-native";
+import { StyleSheet,  } from "react-native";
 import { connectStyle, StyleProvider } from "native-base";
 import HeaderBar from "../view/HeaderBar";
-import { withNavigation } from 'react-navigation';
+import { withNavigation } from "react-navigation";
 import PasswordField from "./../view/field-password";
 import EmailField from "./../view/field-email";
 class RegisterForm extends React.Component {
@@ -127,10 +128,12 @@ class RegisterForm extends React.Component {
   render() {
     return (
       <Content>
-        <Button block bordered info style={styles.buttonUpload}>
+        <Button bordered info style={styles.buttonUpload}>
           <Text>Upload</Text>
         </Button>
-        <Text style={styles.text}> Upload Your Photo </Text>
+        <View style={styles.text}>
+          <Text style={styles.textLine}> Upload Your Photo </Text>
+        </View>
         <Form style={styles.form}>
           <Item floatingLabel>
             <Label>Fullname</Label>
@@ -244,11 +247,18 @@ class RegisterForm extends React.Component {
             />
           </Item>
         </Form>
+        <View style={{ alignItems : 'center' }}>
         <Text style={styles.textUpload}>Upload Personal Card</Text>
+        </View>
         <Button block bordered info style={styles.buttonUpload}>
           <Text>Upload</Text>
         </Button>
-        <Button block dark style={styles.buttonNext} onPress={()=> this.props.navigation.navigate("Payment")}> 
+        <Button
+          block
+          dark
+          style={styles.buttonNext}
+          onPress={() => this.props.navigation.navigate("Payment")}
+        >
           <Text>Next </Text>
         </Button>
       </Content>
@@ -257,40 +267,40 @@ class RegisterForm extends React.Component {
 }
 const styles = StyleSheet.create({
   text: {
-    fontSize: 24,
-    textAlign: "center",
+    alignItems: "center",
     paddingTop: "20%"
+  },
+  textLine: {
+    fontSize: 24
   },
   textUpload: {
     fontSize: 24,
-    textAlign: "center",
+    // textAlign: "center",
     paddingTop: "5%",
-    marginBottom : '5%'
+    marginBottom: "5%"
   },
   form: {
     width: "90%",
-    textAlign: "center",
+    alignItems: "center",
     marginLeft: "3%",
     marginRight: "5%"
   },
-  buttonUpload:{
+  buttonUpload: {
     justifyContent: "center",
-    textAlign : 'center',
-    marginLeft:'35%',
-    marginRight:'35%',
-    marginBottom: 15,
-    marginTop :15,
-    width:'30%',
-    
+    // textAlign: "center",
+    marginLeft: "35%",
+    marginRight: "35%",
+    marginTop: 15,
+    width: "30%"
   },
-  buttonNext :{
+  buttonNext: {
     width: "80%",
-    textAlign: "center",
+    // textAlign: "center",
     justifyContent: "center",
     marginLeft: "10%",
     marginRight: "10%",
     marginBottom: 10,
-    marginTop :15,
+    marginTop: 15,
     backgroundColor: "black"
   }
 });

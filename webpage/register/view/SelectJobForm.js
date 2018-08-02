@@ -31,7 +31,9 @@ class SelectJobForm extends React.Component {
   render() {
     return (
       <Content style={styles.Content}>
+      <View style={{ alignItems:'center' }}>
         <Text style={styles.Text}>Choose the 5 that interest you.</Text>
+        </View>
         <Form style={styles.form}>
           <Item picker>
             <Picker
@@ -62,13 +64,14 @@ const styles = StyleSheet.create({
   },
   form: {
     width: "90%",
-    textAlign: "center",
+    // textAlign: "center",
     marginLeft: "3%",
-    marginRight: "3%"
+    marginRight: "3%",
+    alignItems:'center'
   },
   Text: {
     fontSize: 24,
-    textAlign: "center",
+    // textAlign: "center",
     marginBottom: "5%"
   },
   buttonSubmit:{

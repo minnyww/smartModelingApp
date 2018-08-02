@@ -41,9 +41,11 @@ export default class InformationModelForm extends React.Component {
   render() {
     return (
       <Content>
-        <Text style={styles.textLogo}>Image Information</Text>
-        <Text style={styles.text}>General Information</Text>
-        <Text style={styles.tagline}>Please enter your detail</Text>
+        <View style={{ alignItems: "center" }}>
+          <Text>Image Information</Text>
+          <Text style={styles.text}>General Information</Text>
+          <Text style={styles.tagline}>Please enter your detail</Text>
+        </View>
         <Form style={styles.form}>
           <Item floatingLabel>
             <Label>Weight</Label>
@@ -53,14 +55,15 @@ export default class InformationModelForm extends React.Component {
             <Label>Height</Label>
             <Input />
           </Item>
-          <Text style={styles.textLabel}>Teeth</Text>
-          <Item picker>
+
+          <Item>
+            <Label>Teeth</Label>
             <Picker
-              style={styles.picker}
-              mode="dropdown"
-              placeholder="Teeth"
-              placeholderStyle={{ color: "#bfc6ea" }}
-              placeholderIconColor="#007aff"
+              style={{ height: 75, width: 200 }}
+              // mode="dropdown"
+              // placeholder="Teeth"
+              // placeholderStyle={{ color: "#bfc6ea" }}
+              // placeholderIconColor="#007aff"
               selectedValue={this.state.selected2}
               onValueChange={this.onValueChange2.bind(this)}
             >
@@ -68,14 +71,11 @@ export default class InformationModelForm extends React.Component {
               <Picker.Item label="No" value="key1" />
             </Picker>
           </Item>
-          <Text style={styles.textLabel}>Select Shirt Size</Text>
-          <Item picker>
+
+          <Item>
+            <Label>Shirt Size</Label>
             <Picker
-              style={styles.picker}
-              mode="dropdown"
-              placeholder="Size"
-              placeholderStyle={{ color: "#bfc6ea" }}
-              placeholderIconColor="#007aff"
+              style={{ height: 75, width: 200 }}
               selectedValue={this.state.selected2}
               onValueChange={this.onValueChange2.bind(this)}
             >
@@ -86,14 +86,11 @@ export default class InformationModelForm extends React.Component {
               <Picker.Item label="XXL" value="key4" />
             </Picker>
           </Item>
-          <Text style={styles.textLabel}>Job Experience</Text>
-          <Item picker>
+          {/* <Text style={styles.textLabel}>Job Experience</Text> */}
+          <Item>
+            <Label>Experience</Label>
             <Picker
-              style={styles.picker}
-              mode="dropdown"
-              placeholder="Job Name"
-              placeholderStyle={{ color: "#bfc6ea" }}
-              placeholderIconColor="#007aff"
+              style={{ height: 75, width: 200 }}
               selectedValue={this.state.selected2}
               onValueChange={this.onValueChange2.bind(this)}
             >
@@ -108,14 +105,13 @@ export default class InformationModelForm extends React.Component {
           <Button bordered style={styles.buttonUpload}>
             <Text>Add Job Name</Text>
           </Button>
-          <Text style={styles.textHead}>Choose 5 That your interest</Text>
-          <Item picker>
+          <View style={{ alignItems: "center" }}>
+            <Text style={styles.textHead}>Choose 5 That your interest</Text>
+          </View>
+          <Item>
+            <Label>Job Type</Label>
             <Picker
-              style={styles.picker}
-              mode="dropdown"
-              placeholder="Job Catagory"
-              placeholderStyle={{ color: "#bfc6ea" }}
-              placeholderIconColor="#007aff"
+              style={{ height: 75, width: 200 }}
               selectedValue={this.state.selected2}
               onValueChange={this.onValueChange2.bind(this)}
             >
@@ -123,15 +119,16 @@ export default class InformationModelForm extends React.Component {
               <Picker.Item label="Photograph" value="key1" />
             </Picker>
           </Item>
-
-          <Text style={styles.textHead}>Upload Your 5 photos </Text>
-          <Button bordered style={styles.buttonUpload}>
-            <Text>Upload</Text>
-          </Button>
         </Form>
+        <View style={{ alignItems: "center" }}>
+          <Text style={styles.textHead}>Upload Your 5 photos </Text>
+        </View>
         <Button bordered style={styles.buttonUpload}>
-            <Text>Finish</Text>
-          </Button>
+          <Text>Upload</Text>
+        </Button>
+        <Button bordered style={styles.buttonUpload}>
+          <Text>Finish</Text>
+        </Button>
       </Content>
     );
   }
@@ -139,42 +136,41 @@ export default class InformationModelForm extends React.Component {
 const styles = StyleSheet.create({
   form: {
     width: "90%",
-    textAlign: "center",
-    marginLeft: "5%",
+    alignItems: "center",
+    marginLeft: "3%",
     marginRight: "5%"
   },
-  textLogo: {
-    fontSize: 72,
-    textAlign: "center"
-  },
+  // textLogo: {
+  //   fontSize: 72,
+  //   // textAlign: "center"
+  // },
   text: {
     fontSize: 24,
-    textAlign: "center",
+    // textAlign: "center",
     paddingTop: 20
   },
   tagline: {
     fontSize: 16,
-    textAlign: "center",
+    // textAlign: "center",
     paddingTop: 10
   },
   textLabel: {
-    marginLeft: "5%",
     paddingTop: 5
   },
-  picker: {
-    width: "50%",
-    textAlign: "center",
-    marginLeft: "3%",
-    marginRight: "5%"
-  },
+  // picker: {
+  //   width: "50%",
+  //   // textAlign: "center",
+  //   marginLeft: "3%",
+  //   marginRight: "5%"
+  // },
   textHead: {
-    justifyContent: "center",
-    textAlign: "center",
+    // justifyContent: "center",
+    // textAlign: "center",
     fontSize: 24
   },
   buttonUpload: {
     justifyContent: "center",
-    textAlign: "center",
+    // textAlign: "center",
     marginLeft: "25%",
     marginRight: "25%",
     marginBottom: 15,

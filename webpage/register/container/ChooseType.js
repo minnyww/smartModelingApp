@@ -24,9 +24,9 @@ import { StackNavigator } from "react-navigation";
 export default class ChooseType extends React.Component {
   render() {
     return (
-      // <Container style={styles.Container}>
-        // <HeaderBar />
-        <Content style={styles.Content}>
+      <Container style={styles.Container}>
+        <HeaderBar />
+        <View style={styles.Content}>
           <Text style={styles.logo}>Logo</Text>
           <Text style={styles.text}>Select Register</Text>
           <Text style={styles.tagline}>
@@ -38,35 +38,38 @@ export default class ChooseType extends React.Component {
           <Button block dark style={styles.Button} onPress={()=> this.props.navigation.navigate('Register')}>
             <Text>Modeling</Text>
           </Button>
-        </Content>
-     // </Container> 
+        </View>
+      </Container>
     );
   }
 }
 const styles = StyleSheet.create({
   Container: {
-    flex: 1
+    flex: 1,
+    
   },
   Content: {
     flex: 1,
-    paddingTop: "20%"
+    paddingTop: "20%",
+    alignItems: "center"
   },
   logo: {
+    
     fontSize: 72,
-    textAlign: "center"
+    
   },
   text: {
     fontSize: 32,
-    textAlign: "center",
+    
     paddingTop: "20%"
   },
   tagline: {
     fontSize: 16,
-    textAlign: "center"
+    
   },
   Button: {
     width: "80%",
-    textAlign: "center",
+    
     justifyContent: "center",
     marginLeft: "10%",
     marginRight: "10%",

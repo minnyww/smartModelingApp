@@ -28,11 +28,13 @@ import { withNavigation } from "react-navigation";
 class HomeFeed extends React.Component {
   render() {
     return (
+      <Content>
       <Grid>
         {/* VIp */}
+        
         <Row>
           <Col>
-            <Content>
+          <Content>
               <ScrollView
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}
@@ -93,13 +95,13 @@ class HomeFeed extends React.Component {
                   </CardItem>
                 </Card>
               </ScrollView>
-            </Content>
+              </Content>
           </Col>
         </Row>
         {/* VIp */}
-
+        
         {/* Feed */}
-        <Row style={{ height: "5%" }}>
+        <Row style={{ height: "3%" }}>
           <View
             style={{
               flexDirection: "row"
@@ -124,7 +126,7 @@ class HomeFeed extends React.Component {
         >
           <Row>
             <Col>
-              <Content >
+                
                 <Card >
                   <CardItem cardBody >
                     <Image
@@ -141,10 +143,10 @@ class HomeFeed extends React.Component {
                     </Body>
                   </CardItem>
                 </Card>
-              </Content>
+              
             </Col>
             <Col>
-              <Content>
+              
                 <Card>
                   <CardItem cardBody>
                     <Image
@@ -161,10 +163,10 @@ class HomeFeed extends React.Component {
                     </Body>
                   </CardItem>
                 </Card>
-              </Content>
+              
             </Col>
             <Col>
-              <Content>
+              
                 <Card>
                   <CardItem cardBody>
                     <Image
@@ -181,12 +183,100 @@ class HomeFeed extends React.Component {
                     </Body>
                   </CardItem>
                 </Card>
-              </Content>
+              
             </Col>
           </Row>
         </ScrollView>
-        {/* Feed */}
+        {/* Feed Men */}
+        <Row style={{ height: "3%" ,}}>
+          <View
+            style={{
+              flexDirection: "row"
+              // justifyContent: "space-between",
+              // alignItems: "center",
+              // paddingHorizontal: 10
+            }}
+          >
+            <Text
+              style={{ marginLeft: "3%", paddingRight: "45%", fontSize: 18 }}
+            >
+              Suggest Model
+            </Text>
+
+            <Text >View more</Text>
+          </View>
+        </Row>
+        <ScrollView
+          horizontal={true}
+          showsHorizontalScrollIndicator={false}
+          style={{ marginLeft: "5%" }}
+        >
+          <Row>
+            <Col>
+                
+                <Card >
+                  <CardItem cardBody >
+                    <Image
+                      source={require("../style/model.png")}
+                      style={{ height: 200, width: null, flex: 1 }}
+                    />
+                  </CardItem>
+                  <CardItem style={{ backgroundColor: "lightpink" }}>
+                    <Left>
+                      <Text>Myy</Text>
+                    </Left>
+                    <Body>
+                      <Text>Jidapha Silkaphan</Text>
+                    </Body>
+                  </CardItem>
+                </Card>
+              
+            </Col>
+            <Col>
+              
+                <Card>
+                  <CardItem cardBody>
+                    <Image
+                      source={require("../style/model.png")}
+                      style={{ height: 200, width: null, flex: 1 }}
+                    />
+                  </CardItem>
+                  <CardItem style={{ backgroundColor: "lightpink" }}>
+                    <Left>
+                      <Text>Maew</Text>
+                    </Left>
+                    <Body>
+                      <Text>Waranya Siriphat</Text>
+                    </Body>
+                  </CardItem>
+                </Card>
+              
+            </Col>
+            <Col>
+              
+                <Card>
+                  <CardItem cardBody>
+                    <Image
+                      source={require("../style/model.png")}
+                      style={{ height: 200, width: null, flex: 1 }}
+                    />
+                  </CardItem>
+                  <CardItem style={{ backgroundColor: "lightpink" }}>
+                    <Left>
+                      <Text>Taylor</Text>
+                    </Left>
+                    <Body>
+                      <Text>Swapam</Text>
+                    </Body>
+                  </CardItem>
+                </Card>
+              
+            </Col>
+            
+          </Row>
+          </ScrollView>
       </Grid>
+      </Content>
     );
   }
 }

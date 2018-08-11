@@ -8,7 +8,7 @@ class ButtonLogin extends React.Component {
     return (
       <Content>
         <Button block style={styles.buttonEmail} onPress={()=> this.props.navigation.navigate("Signin")}>
-          <Icon name="mail-forward" />
+          <Icon type="Entypo" name="500px" />
           <Text style={styles.Textbutton}>E-mail</Text>
         </Button>
         <Button block style={styles.buttonFacebook}>

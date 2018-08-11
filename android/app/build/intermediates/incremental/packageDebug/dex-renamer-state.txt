@@ -1,4 +1,4 @@
-#Wed Jul 25 18:15:00 ICT 2018
-base.0=C\:\\Users\\user\\Desktop\\smartModeling-app\\smartModelingApp\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Fri Jul 27 21:50:20 ICT 2018
+base.0=/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=C\:\\Users\\user\\Desktop\\smartModeling-app\\smartModelingApp\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=/Users/jidapa_sikaphan/Smart Modeling/smartModelingApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
